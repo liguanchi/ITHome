@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItContent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="91dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shadow"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/returndemo" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="73dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:text="华为 Mate 40 Pro 缺货被疯抢，销售商称华为已投 200 亿美元做芯片"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="2020-11-01 08:22 IT之家(远洋)"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp"
+                android:text="IT之家 11 月 1 日消息;华为 Mate40 系列旗舰机已经在国内上市，据 AI 财经社报道，10 月 30 日开售当天的 Mate 40 Pro全系列在各线上渠道几乎都是 “秒光”。东北地区的华为经销商解释，抢购非常火爆，另外一方面的原因是投放量少。"
+                android:textColor="#202020" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingStart="16dp"
+                android:paddingRight="16dp"
+                android:text="报道称，一个华为线上大经销商透露：“Mate 40 系列首销比 Mate 30 少了 70% 左右。”此外，一位来自河北某地的华为零售合作伙伴称，他去年分到的 Mate 30 系列有 300 台左右，今年的 Mate 40 系列降到了 50 台。体系外的小零售门店则更为 “可怜”，有些只能拿到个位数。"
+                android:textColor="#202020" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="一边是供货量少，一边是消费者购买意愿高涨，预计 Mate 40 系列的抢购和溢价的情况都将持续更长时间。"
+                android:textColor="#202020" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="此前有消息称，华为为了严控价格，要求线下第三方授权店，第一批 Mate 40 必须 12 小时内卖完，以杜绝有经销商故意囤货加价的行为。对此，AI 财经社向多位经销商求证，他们均表示没有接到这样的通知。"
+                android:textColor="#202020" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="报道还称，近期拜访过华为的人士称，华为没有打算放弃芯片，包括投资芯片生产线。Mate 40 发布会现场，一位华为合作伙伴称，前些天刚参加华为的一场合作伙伴会议，华为的一位领导专门强调了已经投资了 200 亿美元用于芯片等领域。"
+                android:textColor="#202020" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="IT之家了解到，近日有消息称，三星显示部门、索尼都获得了美国的许可，可以继续为华为供货，此外，美国政府可能将允许美国芯片供应商向华为供货。"
+                android:textColor="#202020" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/shadow_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:hint="写评论"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bubble" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="6"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/share" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/more2" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
